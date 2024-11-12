@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:myapp/pages/Ejercicios/ejercicio_column_row_.dart';
 import 'package:myapp/widgets/My_FloatingAction_Button.dart';
-import 'package:myapp/widgets/My_button.dart';
+//import 'package:myapp/widgets/My_button.dart';
+//import 'package:myapp/widgets/multichild/my_column.dart';
+import 'package:myapp/widgets/multichild/my_row.dart';
 import 'package:myapp/widgets/my_app_bar.dart';
 
 class MyHomePage extends StatelessWidget {
@@ -25,8 +28,13 @@ class MyHomePage extends StatelessWidget {
       floatingActionButton: MyFloatingActionButton(),
       // floatingActionButtonLocation: FloatingActionButtonLocation.startFloat,
       appBar: MyAppBar(),
-      body: Center(child: Mybutton(),
+      body: Align(
+        alignment: Alignment.topCenter,
+        child: ProfileCard(),
       ),
+      // body: Center(
+      //   child: ProfileCard(),
+      // ),
     );
   }
 }

@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:myapp/common/my_rutes.dart';
+import 'package:myapp/pages/MyHomePage.dart';
 import 'package:myapp/pages/login_page.dart';
 //import 'package:myapp/pages/pratica.dart';
 
@@ -21,7 +22,7 @@ class Myapp extends StatelessWidget {
         primaryColor: Colors.blue,
         scaffoldBackgroundColor: Colors.grey,
       ),
-      home: const LoginPage(),
+      home: const MyHomePage(),
     );
   }
 }
