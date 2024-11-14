@@ -21,7 +21,7 @@ class MyRutes {
       case "/new_playing":
         return MaterialPageRoute(builder: (_) => const NewPlayingPage());
       default:
-      return MaterialPageRoute(builder: (_) => const LoginPage());
+        return MaterialPageRoute(builder: (_) => const LoginPage());
     }
   }
 }
